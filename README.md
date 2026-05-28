@@ -1,3 +1,5 @@
+https://docs.google.com/document/d/1Ol5P31YuxXXO6U2KWwO40ejuhpVnD1Ve/edit?usp=sharing&ouid=103506723966023643049&rtpof=true&sd=true
+
 # ⚡ Nexora Weather
 
 Aplicación web moderna de clima desarrollada con **HTML, CSS y JavaScript Vanilla**, enfocada en una experiencia visual profesional, consumo de APIs en tiempo real y buenas prácticas de seguridad, rendimiento y desarrollo frontend.
