@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="Aplicación moderna del clima con pronóstico y múltiples ciudades"
+  />
+
+  <title>Nexora Weather</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+</head>
+
+<body>
+
+  <div class="background-blur blur-1"></div>
+  <div class="background-blur blur-2"></div>
+
+  <main class="app-container">
+
+    <header class="hero">
+
+      <span class="badge">
+        WEATHER ANALYTICS
+      </span>
+
+      <h1>
+        ⚡ Nexora Weather
+      </h1>
+
+      <p>
+        Explora el clima de tus ciudades favoritas
+        con una experiencia moderna y dinámica.
+      </p>
+
+    </header>
+
+    <section class="search-section">
+
+      <div class="search-box">
+
+        <input
+          type="text"
+          id="cityInput"
+          placeholder="Ej: Bogotá, Medellín, Cali"
+          autocomplete="off"
+          aria-label="Buscar ciudad"
+        />
+
+        <button id="searchBtn">
+
+          Buscar
+
+        </button>
+
+      </div>
+
+      <small>
+        Puedes buscar varias ciudades separadas por coma.
+      </small>
+
+    </section>
+
+    <section
+      id="loading"
+      class="loading hidden"
+    >
+
+      <div class="spinner"></div>
+
+      <p>
+        Consultando clima...
+      </p>
+
+    </section>
+
+    <section
+      id="weatherContainer"
+      class="weather-grid"
+    ></section>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
